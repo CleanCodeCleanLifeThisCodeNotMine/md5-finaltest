@@ -20,13 +20,6 @@ const ProductFilter = ({ onFilter }) => {
         loadProductTypes();
     }, []);
 
-    const handleFilter = () => {
-        onFilter({
-            name: productName.trim(),
-            typeId: selectedType
-        });
-    };
-
     const handleReset = () => {
         setProductName('');
         setSelectedType('');
