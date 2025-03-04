@@ -1,12 +1,15 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import ClothingManagement from './components/ClothingManagement';
 
 function App() {
   return (
-    <div className="App">
-      <ClothingManagement />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <ClothingManagement />
+      </div>
+    </BrowserRouter>
   );
 }
 

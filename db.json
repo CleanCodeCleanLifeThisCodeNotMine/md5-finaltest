@@ -1,0 +1,102 @@
+{
+  "productTypes": [
+    {
+      "id": "PT001",
+      "name": "Body"
+    },
+    {
+      "id": "PT002",
+      "name": "Pants"
+    },
+    {
+      "id": "PT003",
+      "name": "Dress"
+    },
+    {
+      "id": "PT004",
+      "name": "Accessories"
+    }
+  ],
+  "products": [
+    {
+      "id": "P001",
+      "name": "Gucci Shirt",
+      "importDate": "15/03/2025",
+      "quantity": 150,
+      "productType": {
+        "id": "PT001",
+        "name": "Body"
+      }
+    },
+    {
+      "id": "P002",
+      "name": "Prada Pants",
+      "importDate": "20/02/2025",
+      "quantity": 100,
+      "productType": {
+        "id": "PT002",
+        "name": "Pants"
+      }
+    },
+    {
+      "id": "P003",
+      "name": "Channel Dressssss",
+      "importDate": "10/01/2025",
+      "quantity": 50,
+      "productType": {
+        "id": "PT003",
+        "name": "Dress"
+      }
+    },
+    {
+      "id": "P004",
+      "name": "Chanel Jacket",
+      "importDate": "05/03/2025",
+      "quantity": 80,
+      "productType": {
+        "id": "PT001",
+        "name": "Body"
+      }
+    },
+    {
+      "id": "P005",
+      "name": "Prada Trousers",
+      "importDate": "25/02/2025",
+      "quantity": 120,
+      "productType": {
+        "id": "PT002",
+        "name": "Pants"
+      }
+    },
+    {
+      "id": "P006",
+      "name": "Cho Mo Skirt",
+      "importDate": "12/01/2025",
+      "quantity": 70,
+      "productType": {
+        "id": "PT003",
+        "name": "Dress"
+      }
+    },
+    {
+      "id": "P007",
+      "name": "Louis Vuitton Belt",
+      "importDate": "18/03/2025",
+      "quantity": 200,
+      "productType": {
+        "id": "PT004",
+        "name": "Accessories"
+      }
+    },
+    {
+      "id": "P008",
+      "name": "Dong Xuan Hat",
+      "importDate": "22/02/2025",
+      "quantity": 180,
+      "productType": {
+        "id": "PT004",
+        "name": "Accessories"
+      }
+    }
+  ]
+}
