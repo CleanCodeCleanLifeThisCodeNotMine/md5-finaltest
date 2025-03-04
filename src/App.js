@@ -5,7 +5,7 @@ import ClothingManagement from './components/ClothingManagement';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/md5-finaltest">
       <div className="App">
         <ClothingManagement />
       </div>
